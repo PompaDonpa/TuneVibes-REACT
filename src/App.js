@@ -51,7 +51,7 @@ export default function App () {
           <EditSong />
         </Route>
         <Route path='/songs/:id'>
-          <ShowSong />
+          <ShowSong songs={songs}/>
         </Route>
         <Route path='/songs'>
           <Songs songs={songs} />

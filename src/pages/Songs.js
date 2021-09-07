@@ -17,8 +17,8 @@ const useStyles = makeStyles(theme => ({
   },
   content: {
     flexGrow: 1,
-    width: '100%',
-    padding: theme.spacing(3, 7, 3, 0)
+    width: '840px',
+    padding: theme.spacing(3, 8, 3, 0)
   },
   child: {
     alignSelf: 'center'

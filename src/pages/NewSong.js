@@ -23,8 +23,8 @@ const useStyles = makeStyles(theme => ({
   },
   content: {
     flexGrow: 1,
-    width: '100%',
-    padding: theme.spacing(3, 7, 3, 0)
+    width: '840px',
+    padding: theme.spacing(3, 8, 3, 0)
   },
   child: {
     alignSelf: 'center'
@@ -68,7 +68,7 @@ const NewSong = () => {
         <ThemeProvider theme={theme}>
           <CssBaseline />
           <Container
-            maxWidth='sm'
+            maxWidth='lg'
             style={{
               boxShadow: '0 0 10px #2196f3, 0 0 20px #2196f3, 0 0 20px #2196f3',
               borderRadius: '20px'
